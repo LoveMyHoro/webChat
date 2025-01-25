@@ -44,9 +44,8 @@ const login = async () => {
   ElMessage.success("登录成功!");
   tokenStore.setToken(res.data.token);
   userInfoStore.setUserInfo(res.data);
-  console.log(userInfoStore.userInfo.username);
-  console.log(tokenStore.token);
-  router.push("/home");
+  console.log("username="+userInfoStore.userInfo.username+",id="+userInfoStore.userInfo.id);
+  router.push("/chat");
 };
 
 const changeUrl = (url) => {

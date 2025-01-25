@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db930054-aa35-4f9c-b052-a026fb75b230" name="更改" comment="" />
+    <list default="true" id="db930054-aa35-4f9c-b052-a026fb75b230" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/horo/configuration/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/horo/configuration/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/horo/controller/ChatController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/horo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/horo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/horo/interceptor/myInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/horo/interceptor/myInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/horo/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/horo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/horo/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/horo/utils/ResultCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/horo/utils/ResultCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/horo/utils/WebSocketSever.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/horo/webSocketApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/horo/webSocketApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webChatView/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../webChatView/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webChatView/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../webChatView/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webChatView/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../webChatView/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webChatView/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../webChatView/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webChatView/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../webChatView/src/views/Login.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +47,7 @@
         <option name="customMavenHome" value="D:\java\env\maven\apache-maven-3.6.3" />
         <option name="localRepository" value="D:\java\env\maven\repo" />
         <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\java\env\maven\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -62,7 +81,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;Spring Boot.webSocketApplication.executor&quot;: &quot;Run&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/iove/OneDrive/桌面/webChat/webChat&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/java/做过的项目/sky-take-out&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -71,7 +90,7 @@
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -85,6 +104,7 @@
       <recent name="D:\java\webSocket\webSocket\src\main\java\com\horo\utils" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.horo.controller" />
       <recent name="com.horo.utils" />
     </key>
   </component>
@@ -108,10 +128,26 @@
       <workItem from="1737716854245" duration="1300000" />
       <workItem from="1737718164366" duration="3099000" />
       <workItem from="1737722567216" duration="3294000" />
+      <workItem from="1737775474186" duration="4505000" />
+      <workItem from="1737780649747" duration="848000" />
+      <workItem from="1737782285716" duration="216000" />
+      <workItem from="1737782513417" duration="1969000" />
+      <workItem from="1737786690299" duration="13493000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

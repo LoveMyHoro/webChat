@@ -6,4 +6,7 @@
 <!--全限定名就是完整地址-->
 <mapper namespace="com.horo.mapper.UserMapper">
 
+    <select id="getUser" resultType="com.horo.pojo.User">
+        select * from user where username=#{username} and password=#{password}
+    </select>
 </mapper>

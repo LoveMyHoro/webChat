@@ -12,6 +12,7 @@ public enum ResultCodeEnum {
     NOTLOGIN(504,"未登录"),
     USERNAME_USED(505,"用户名已被占用");
 
+
     private Integer code;
     private String message;
     private ResultCodeEnum(Integer code, String message) {

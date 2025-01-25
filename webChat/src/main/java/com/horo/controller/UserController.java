@@ -3,6 +3,7 @@ package com.horo.controller;
 import com.horo.pojo.User;
 import com.horo.service.UserService;
 import com.horo.utils.Result;
+import com.horo.utils.ThreadLocalUtil;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
@@ -27,13 +28,11 @@ public class UserController {
 	@Operation(tags = "登录接口")
 	public Result login(@RequestBody User user){
 		Result result=userService.login(user);
-		log.info("登录成功");
 		return result;
 	}
 	@GetMapping
-	@Operation(tags = "获取用户信息")
 	public Result getUserInfo(){
-		log.info("获取用户信息");
-		return Result.ok(null);
+		return Result.ok(ThreadLocalUtil.get());
 	}
+
 }

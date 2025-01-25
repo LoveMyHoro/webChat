@@ -5,3 +5,19 @@ jwt:
   token:
     tokenExpiration: 1200
     tokenSignKey: webChat1200
+spring:
+  #配置数据源
+  datasource:
+    druid:
+      url: jdbc:mysql:///webchat
+      username: daifuyang
+      password: 123456
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.horo.pojo
+  configuration:
+    #开启驼峰命名
+    map-underscore-to-camel-case: true

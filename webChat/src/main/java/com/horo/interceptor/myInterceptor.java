@@ -3,6 +3,7 @@ package com.horo.interceptor;
 
 import com.horo.utils.JwtHelper;
 import com.horo.utils.ResultCodeEnum;
+import com.horo.utils.ThreadLocalUtil;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
@@ -32,6 +33,9 @@ public class myInterceptor implements HandlerInterceptor {
 			log.info("无有效token");
 			return false;
 		}
+		ThreadLocalUtil.set(jwtHelper.getUserId(token));
+		Long id=ThreadLocalUtil.get();
+		log.info("拦截器生效，用户id为：{}",id);
 		return true;
 	}
 }
